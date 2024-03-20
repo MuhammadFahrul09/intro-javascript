@@ -14,9 +14,9 @@ const combinedNumber = number1.concat(number2);
 
 //3. slice mengambil atau megiris sebuah array menjadi array baru
 const foods = ['roti', 'mie', 'nasi goreng', 'bubur ayam', 'bakso'];
-const newFoods = foods.slice(1, 3);
+const newFoods = foods.slice(0, 1);
 
-// console.log(newFoods);
+console.log(newFoods);
 
 //4.splice method array yang berfungsi untuk mengubah elemen array termasuk menghapus, mengganti, atau menambah elemen baru.
 
@@ -59,4 +59,4 @@ const sum = arNumbers.reduce((a, b)=> a + b);
 const numbrs = [2, 4, 6, 8];
 const allEvenNumbers = numbrs.every(num => num % 2 === 0);
 
-console.log(allEvenNumbers);
+// console.log(allEvenNumbers);
