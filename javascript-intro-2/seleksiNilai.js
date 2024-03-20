@@ -1,4 +1,4 @@
-function SeleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
+const SeleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
     // Validasi nilaiAwal < nilaiAkhir
     if (nilaiAwal >= nilaiAkhir) {
         console.log("Nilai akhir harus lebih besar dari nilai awal");
