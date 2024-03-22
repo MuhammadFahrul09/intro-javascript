@@ -14,9 +14,9 @@ const combinedNumber = number1.concat(number2);
 
 //3. slice mengambil atau megiris sebuah array menjadi array baru
 const foods = ['roti', 'mie', 'nasi goreng', 'bubur ayam', 'bakso'];
-const newFoods = foods.slice(0, 1);
+const newFoods = foods.slice(1, 3);
 
-console.log(newFoods);
+console.log(foods);
 
 //4.splice method array yang berfungsi untuk mengubah elemen array termasuk menghapus, mengganti, atau menambah elemen baru.
 

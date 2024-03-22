@@ -29,6 +29,7 @@ const SeleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
 
 // Contoh penggunaan
 SeleksiNilai(5, 20 , [2, 25, 4, 14, 17, 30, 8]);
-SeleksiNilai(15, 3 , [2, 25, 8, 14, 17, 30, 8]);
-SeleksiNilai(5, 17 , [2, 25, 4]);
-SeleksiNilai(5, 17 , [2, 25, 4, 1, 30, 18]);
+// SeleksiNilai(20,5 , [4,8,6,9]);
+// SeleksiNilai(15, 3 , [2, 25, 8, 14, 17, 30, 8]);
+// SeleksiNilai(5, 17 , [2, 25, 4]);
+// SeleksiNilai(5, 17 , [2, 25, 4, 1, 30, 18]);
